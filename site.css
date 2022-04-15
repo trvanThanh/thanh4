@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --large-width: 100%;
+    --normal-width: 1200px;
+}
+body{
+    max-width:1332px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: var(--normal-width);
+    margin: auto;
+}
+.container-full{
+    width: var(--large-width);
+    background-color: #383838;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    margin-top: 44px;
+}
+.header-top li ,.header-bottom li{
+    display: inline-table;
+    padding: 20px 10px;
+    font-weight: bold;
+}
+.header-bottom{
+    background-color: #F69631;
+    display: flex;
+    justify-content: space-between;
+}
+.header-top input{
+    margin-left:  129px;
+    padding: 10px 130px 10px 0;
+}
+.header-bottom a{
+    color: white;
+}
+.icon i{
+    border-radius:5px;
+    padding: 13px;
+    width: 40px;
+    height: 40px;
+    background-color: #FBD5AD;
+    margin: 10px 15px 15px 0;
+    color: #F69631;
+}
+.banner{
+    margin-top: 15px;
+}
+.thongtin{
+    position:relative;
+    display: flex;
+    margin-top: 30px;
+}
+.text1 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: absolute;
+    width: 420px;
+    top:380px;
+    left:25px;
+}
+.time{
+    position: absolute;
+    color: white;
+    top: 475px;
+    left: 20px;
+    font-size: 0.8em;
+}
+.text2{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    width: 460px;
+    top: 230px;
+    left: 610px;
+    font-size: 1.5em;
+}
+.text3{
+    position: absolute;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: white;
+    width: 250px;
+    top: 450px;
+    left: 600px;
+}
+.text4{
+    position: absolute;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: white;
+    width: 250px;
+    top: 450px;
+    left: 895px;
+}
+.anh234{
+    margin: 5px;
+}
+.anh1{
+    margin: 5px 0 5px 0;
+}
+.tintucbaiviet{
+    display: flex;
+}
+.line-orange::before{
+    width: 45px;
+    height: 2px;
+    background-color: #f8ac5d;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    display: block;
+    z-index: 99;
+}
+.line-gray::after{
+    width: 40px;
+    height: 2px;
+    background-color: #f5f5f5;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left:45px;
+    display: block;
+    z-index: 99;
+}
+.line-gray1::after{
+    width: 375px;
+    height: 2px;
+    background-color: #F5F5F5;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left:45px;
+    display: block;
+    z-index: 99;
+}
+.tintuc{
+    width: 720px;
+    margin-right: 30px;
+}
+.tieude1 {
+    position: relative;
+    margin: 20px 0;
+    color: #F69c60;
+    font-size: 1.2em;
+}
+.baiviet{
+    width: 420px;
+}
+.anhnoidung{
+    display: flex;
+    margin: 30px 30px 30px 0;
+}
+.noidung{
+    margin-left: 30px;
+}
+.noidung-tieude{
+    font-size: 1.2em;
+    margin: 10px 10px 10px 0;
+}
+.noidung-time{
+    font-size: 0.8em;
+    color: #bdbce1;
+    margin: 10px 10px 10px 0;
+}
+.noidung-chitiet{
+    font-size:0.9em;
+    color: #999ca4;
+    margin: 10px 10px 10px 0;
+}
+.tieude2{
+    position: relative;
+    margin: 20px 10px 0 0 ;
+    color: #F69c60;
+    font-size: 1.2em;
+}
+.baiviet li{
+    margin: 36px 10px 10px 0;
+    font-size: 0.9em;
+}
+.baiviet ul{
+    list-style-type: none;
+}
+select{
+   margin-left: 380px;
+   color:#bdbce1;
+   border-color: #bdbce1;
+   padding: 5px;
+}
+.footer-top{
+    display: flex;
+    height: 300px;
+    margin: 50px 50px 50px 100px;
+    color: white;
+    padding-top: 80px;
+}
+.footer-top1{
+    width: 680px;
+}
+.footer-top1-text{
+    padding: 0 50px 20px 0;
+}
+.footer-top1 p{
+    font-size: 0.9em;
+}
+.footer-icon i{
+    background-color: #3e3e3e;
+    color: white;
+    margin: 5px 5px 5px 0;
+    padding:13px;
+    width: 40px;
+    height: 40px;
+}
+.footer-icon{
+    margin-top: 30px;
+}
+.footer-bottom{
+    background-color: #0D0D0D;
+    color: white;
+    padding:10px 10px 20px 100px;
+    font-size: 0.9em;
+    height: 30px;
+}
